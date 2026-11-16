@@ -29,12 +29,12 @@ claude mcp add -s user screen-click -e SCREEN_CLICK_OLLAMA=http://<ollama-host>:
 
 `bench/capture.py` grabs screenshots (F9), `bench/cases.json` labels a target + bounding box per shot, `bench/run.py` scores each model's hits.
 
-15 targets (10 Unreal Editor, 5 Windows Settings), 1920x1080, Ollama on CPU:
+15 targets (10 Unreal Editor, 5 Windows Settings), 1920x1080, Ollama on an RTX 2070 (8 GB):
 
 | Model | Hits | Coordinates | Median latency |
 |---|---|---|---|
-| `qwen3.5:4b` | **9/15** (2 more within 2 px of the box) | 0–1000 grid | 46 s |
-| `qwen2.5vl:7b` | 6/15 | image pixels | 5 s |
+| `qwen3.5:4b` | **9/15** (2 more within 2 px of the box) | 0–1000 grid | 1.7 s (46 s on CPU) |
+| `qwen2.5vl:7b` | 5–6/15 | image pixels | 0.6 s (5 s on CPU) |
 
 Both find big labelled buttons; both miss small icons (panel close ×, taskbar icons in a crowded row).
 
