@@ -1,0 +1,17 @@
+[
+  {"file": "01.png", "target": "Build menu in the Unreal menu bar", "bbox": [355, 2, 410, 30]},
+  {"file": "01.png", "target": "Content Drawer button", "bbox": [5, 985, 168, 1015]},
+  {"file": "01.png", "target": "Output Log button", "bbox": [182, 985, 305, 1015]},
+  {"file": "01.png", "target": "Lit view mode dropdown in the viewport toolbar", "bbox": [1207, 132, 1278, 162]},
+  {"file": "01.png", "target": "Perspective dropdown in the viewport toolbar", "bbox": [998, 132, 1112, 162]},
+  {"file": "01.png", "target": "search box in the Outliner panel", "bbox": [1600, 170, 1840, 197]},
+  {"file": "01.png", "target": "close button (x) of the Details panel tab", "bbox": [1700, 377, 1722, 400]},
+  {"file": "01.png", "target": "Unreal Engine icon in the taskbar", "bbox": [1246, 1030, 1287, 1072]},
+  {"file": "02.png", "target": "Revision Control button", "bbox": [1715, 985, 1895, 1015]},
+  {"file": "02.png", "target": "close button of the PowerShell window", "bbox": [952, 38, 983, 65]},
+  {"file": "smoke.png", "target": "Windows Update in the Settings sidebar", "bbox": [28, 736, 215, 772]},
+  {"file": "smoke.png", "target": "Gaming in the Settings sidebar", "bbox": [28, 586, 140, 622]},
+  {"file": "smoke.png", "target": "File Explorer icon in the taskbar", "bbox": [1080, 1028, 1122, 1072]},
+  {"file": "smoke.png", "target": "close button of the PowerShell window", "bbox": [1078, 164, 1114, 196]},
+  {"file": "smoke.png", "target": "Settings search box", "bbox": [638, 10, 1282, 52]}
+]
